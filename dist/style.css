@@ -6,12 +6,14 @@
 html, body, main {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   position: relative;
-  margin: 0;
-  padding: 0;
-  padding-top: 8px;
-  width: 100%;
-  height: 100%;
-  background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png);
+	width: 100%;
+  min-height: 1000px;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+  background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
